@@ -2,7 +2,7 @@ vagon = int(input("Введите кол-во вагонов: "))
 gruppa = int(input("Введите кол-во групп в вагоне: "))
 deppo = []
 num = 0
-summa = 0
+summa =   0
 for i in range(0,vagon):
     k = 0
     deppo.append([])
@@ -13,7 +13,7 @@ for i in range(0,vagon):
     if k > summa:
         summa = k
         num = i + 1
-print(deppo)
+print(deppo,6)
 print(summa,num)
 
 
