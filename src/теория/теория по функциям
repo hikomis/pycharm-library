@@ -1,0 +1,18 @@
+def summa(a, b):
+    return a + b
+    pass
+
+
+def chet_nechet(a):
+    if a % 2 == 0:
+        return "Chet"
+    else:
+        return "Nechet"
+
+
+
+def delenie(a, b = 25):
+    if b != 0:
+        return a/b
+    else:
+        return a/0
